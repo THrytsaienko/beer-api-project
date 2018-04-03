@@ -14,6 +14,7 @@ const Items = (props) => (
 					description={item.description}
 					firstDate={item.first_brewed}
 					image={item.image_url}
+					tagline={item.tagline}
 					foodPairing={item.food_pairing}
 					brewersTips={item.brewers_tips}
 				/>

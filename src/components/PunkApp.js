@@ -8,7 +8,8 @@ export default class PunkApp extends React.Component {
 	constructor(){
 		super();
 		this.state = {
-			data: []
+			data: [],
+			openItem: undefined
 		};
 	}
 
